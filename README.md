@@ -1,2 +1,2 @@
 # fastROBAI
-Fast Regret Optimal Best Arm Identification
+Fast and Regret Optimal Best Arm Identification: Fundamental Limits and Low-Complexity Algorithms
