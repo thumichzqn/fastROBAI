@@ -2,7 +2,7 @@ function [UCB,LCB] = KL_ULCB(r_bar, Nk, logbns, maxiter)
 if (nargin<4)
     maxiter = 20;
 end
-epsilon = 1e-7;
+epsilon = 1e-5;
 indicator = (r_bar == 1);
 r_bar = (1-indicator) .* r_bar + (1-epsilon) .* indicator;
 
